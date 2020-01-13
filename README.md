@@ -1,2 +1,3 @@
 # education-develop-html
-One directory - one site...
+Training layout coding of the site.
+One directory - one site.
