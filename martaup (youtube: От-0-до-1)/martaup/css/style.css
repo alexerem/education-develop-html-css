@@ -83,7 +83,6 @@ a {
 }
 
 .header-slider__item-info {
-  min-width: 506px;
   color: #fff;
 }
 
@@ -119,6 +118,7 @@ a {
   position: absolute;
   right: 0;
   top: 50%;
+  transform: translateY(-50%);
 }
 
 .header-dots button {
@@ -323,4 +323,125 @@ a {
 
 .footer__link a+a {
   margin-left: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1195px) {
+  .header-slider__item-images {
+    margin: 50px 20px 0 0;
+  }
+
+  .header-slider__item-images img {
+    width: 80%;
+  }
+
+  .header-slider__item-info {
+    padding: 50px 0;
+  }
+
+  .header-slider {
+    padding-top: 25px;
+  }
+
+}
+
+@media (max-width: 924px) {
+  .header__top {
+    flex-wrap: wrap;
+  }
+
+  .header-btn {
+    width: 100%;
+    text-align: right;
+  }
+
+  .login {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-slider__item-images {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+  .menu__list {
+    display: none;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background-color: #1c448c;
+    z-index: 5;
+  }
+
+  .menu__list li+li {
+    padding-left: 0px;
+  }
+
+  .menu__list a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .menu__btn {
+    width: 30px;
+    height: 20px;
+    position: relative;
+  }
+
+  .menu__btn span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    top: 9px;
+    position: absolute;
+  }
+
+  .menu__btn::after,
+  .menu__btn::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+  }
+
+  .menu__btn::after {
+    top: 0;
+  }
+
+  .menu__btn::before {
+    bottom: 0;
+  }
+
+  .header {
+    min-height: 580px;
+  }
+
+  .header-slider__item-info {
+    padding: 10px 30px 10px 0;
+  }
+
+  .header-slider__description {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .header-slider__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+
+@media (min-width: 570px) {
+  .menu__list {
+    display: flex !important;
+  }
 }
