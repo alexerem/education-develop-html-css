@@ -23,6 +23,15 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  font-family: "Arial";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .page-header {
   background-image: url(../img/header-bg.jpg);
   min-height: 550px;
@@ -213,4 +222,61 @@ h2 {
 .buttom-group {
   display: block;
   text-align: center;
+}
+
+.container-1 {
+  max-width: 1020px;
+  height: 410px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-1 ul {
+  display: flex;
+  height: 410px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features {
+  background-color: #ffcb78;
+  height: 410px;
+}
+
+.features-post {
+  width: 210px;
+  height: 235px;
+  list-style: none;
+}
+
+.container-1 li p {
+  color: #444;
+}
+
+.container-1 li h3 {
+  margin: 25px 0 15px;
+}
+
+.borders {
+  position: relative;
+}
+
+.borders::before {
+  content: "";
+  height: 235px;
+  width: 1px;
+  background-color: #e5b56b;
+  position: absolute;
+  left: -95px;
+}
+
+.borders::after {
+  content: "";
+  height: 235px;
+  width: 1px;
+  background-color: #e5b56b;
+  position: absolute;
+  top: 0;
+  left: 290px;
 }
