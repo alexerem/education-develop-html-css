@@ -1,96 +1,103 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Arial', 'Helvetica', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 30px;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 61px;
+  color: #000000;
+  font-family: "Arial";
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .page-header {
-	background-image: url(../img/header-bg.jpg);
-	min-height: 550px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
+  background-image: url(../img/header-bg.jpg);
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 
 .container {
-	max-width: 820px;
-	margin: 0 auto;
-	padding-left: 10px;
-	padding-right: 10px;
+  max-width: 820px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header__top {
-	display: flex;
-	justify-content: space-between;
-	height: 200px;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  align-items: center;
 }
 
 .main-menu__list {
-	display: flex;
+  display: flex;
 }
 
 .main-menu__list li {
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	padding-top: 10px;
-	padding-bottom: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .main-menu__list li+li {
-	padding-left: 55px;
+  padding-left: 55px;
 }
 
 .main-menu__list a {
-	text-transform: uppercase;
-	color: #fff;
-	font-family: 'Arial - Bold MT', sans-serif;
-	font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
 }
 
 .main-menu__list a:hover {
-	color: #ffcb78;
+  color: #ffcb78;
 }
 
 .main-menu__list a:active {
-	color: #ffcb78;
-	opacity: 0.3;
+  color: #ffcb78;
+  opacity: 0.3;
 }
 
 .header-text {
-	font-family: 'Arial - Bold MT', sans-serif;
-	font-size: 70px;
-	font-weight: 400;
-	line-height: 70px;
-	color: #fff;
-	text-align: center;
-	margin-top: 67px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  margin-top: 67px;
 }
 
 .header-dots {
-	display: flex;
-	list-style: none;
-	position: absolute;
-	right: 50%;
-	top: 280px;
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 50%;
+  top: 280px;
 }
 
 .header-dots button {
   border: 0;
   background: #fff;
   font-size: 0;
-	padding: 0;
-	opacity: 0.5;
+  padding: 0;
+  opacity: 0.5;
   height: 5px;
   width: 5px;
   outline: 0;
@@ -100,4 +107,110 @@ a {
 
 .header-dots .slick-active button {
   opacity: 1;
+}
+
+.news__title {
+  font-size: 40px;
+  line-height: 61px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 80px 0 85px;
+}
+
+.news-item {
+  display: flex;
+  margin-bottom: 112px;
+}
+
+.news-item-one {
+  position: relative;
+  max-width: 397px;
+  min-height: 776px;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+
+.news-item-one h2 {
+  margin-left: 37px;
+}
+
+.composition {
+  position: absolute;
+  width: 150px;
+  right: 23px;
+  top: 100px;
+}
+
+.news-item-one img {
+  margin-left: 44px;
+  margin-top: 46px;
+}
+
+.news-item-one .text {
+  margin: 17px 33px 50px;
+  color: #444444;
+}
+
+.composition-alco-price td {
+  border: 1px solid #e5e5e5;
+  width: 75px;
+  height: 42px;
+  line-height: 41px;
+  color: #000000;
+  font-family: "Arial";
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.ingredients {
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 14px;
+}
+
+.buttom-more {
+  line-height: 20px;
+  color: #834700;
+  font-weight: bold;
+  padding: 18px 23px;
+  border: 2px solid #834700;
+  text-transform: uppercase;
+}
+
+.buttom-more:hover {
+  color: #6a3900;
+  border: 2px solid #6a3900;
+}
+
+.buttom-more:active {
+  opacity: 0.3;
+}
+
+.buttom-buy {
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px 22px 20px;
+  text-transform: uppercase;
+  background-color: #834700;
+}
+
+.buttom-buy:hover {
+  background-color: #6a3900;
+}
+
+.buttom-buy:active {
+  opacity: 0.3;
+}
+
+.news-item-one .buttom-price {
+  margin-left: 25px;
+}
+
+.buttom-group {
+  display: block;
+  text-align: center;
 }
