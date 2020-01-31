@@ -280,3 +280,43 @@ h3 {
   top: 0;
   left: 290px;
 }
+
+.history h2 {
+  margin: 95px 0 80px;
+}
+
+.history dt {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.history dd {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  flex-direction: row-reverse;
+}
+
+.history a {
+  font-style: italic;
+  text-decoration: underline;
+  color: #834700;
+}
+
+.history a:hover {
+  color: #6a3900;
+}
+
+.history a:active {
+  color: #cab7a2;
+}
+
+.history p {
+  color: #444444;
+  max-width: 480px;
+}
+
+.history .margin-block {
+  margin-bottom: 86px;
+}
