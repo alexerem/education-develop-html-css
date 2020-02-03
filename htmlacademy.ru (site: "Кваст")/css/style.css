@@ -379,3 +379,55 @@ h3 {
   display: inline;
   right: 0;
 }
+
+.price h2 {
+  margin: 95px 0 90px;
+}
+
+.table-price {
+  width: 100%;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+}
+
+.table-price td {
+  border-bottom: 1px solid #999999;
+  border-top: 1px solid #999999;
+  padding: 25px 0;
+}
+
+.table-price th {
+  font-size: 11px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #999999;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.table-price tr td:nth-child(1) {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table-price sup {
+  font-size: 8px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 4px 5px 3px 5px;
+  border-radius: 2px;
+  background-color: #000;
+  position: relative;
+  right: -25px;
+  top: -7px;
+}
+
+.table-price tr td:nth-child(5),
+.table-price tr th:nth-child(5) {
+  text-align: right;
+}
+
