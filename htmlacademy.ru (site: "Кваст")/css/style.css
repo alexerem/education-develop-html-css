@@ -431,3 +431,149 @@ h3 {
   text-align: right;
 }
 
+.form-feedback {
+  background-color: #ffcb78;
+  padding-bottom: 105px;
+}
+
+.form-feedback h2 {
+  margin: 0 0 85px;
+  padding-top: 85px;
+}
+
+.form-feedback p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #444444;
+  margin-bottom: 75px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.form-form-group input,
+#value-item {
+  width: 630px;
+  height: 50px;
+  background-color: #e5b56c;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9f7e4a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.form-form-group textarea {
+  width: 630px;
+  height: 120px;
+  background-color: #e5b56c;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9f7e4a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.form-form-group input:hover,
+.form-form-group textarea:hover,
+#value-item:hover {
+  background-color: #d9ac66;
+}
+
+.form-form-group input:focus,
+.form-form-group textarea:focus,
+#value-item:focus {
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#phone,
+#phone-2 {
+  width: 290px;
+}
+
+.phone-wrapper {
+  display: flex;
+}
+
+.phone-2 {
+  margin-left: 50px;
+}
+
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox label::before {
+  content: " ";
+  width: 36px;
+  height: 36px;
+  background-color: #e5b56c;
+  display: inline-block;
+  margin-right: 18px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox {
+  position: relative;
+  width: 630px;
+}
+
+.checkbox label {
+  cursor: pointer;
+}
+
+.checkbox label::after {
+  display: none;
+  width: 36px;
+  height: 36px;
+  content: "✔";
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.checkbox input:checked+label::after {
+  display: block;
+}
+
+.form-form button {
+  width: 200px;
+  height: 50px;
+  background-color: #834700;
+  border: none;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.form-form button:hover {
+  background-color: #6a3900;
+}
+
+.form-form button:active {
+  opacity: 0.3;
+}
