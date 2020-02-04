@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 34" width="27" height="34">
+	<defs>
+		<image width="27" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAiCAMAAACZf1ICAAAAAXNSR0IB2cksfwAAADNQTFRF/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4D3qgngAAABF0Uk5TABBAcICfv//f749gIFAwz69V88LJAAABMklEQVR4nHWT67aEIAiFFRFEa/T9n/YgXmqaDj+y1Qe4ueSccx4gYCTibkQRA4DX744Sv1siZ6cQZSwADqBgJhL7qgwO92sHGHsh3R6spPMf9ulC6XhhPjLjkfXhnyzICNFgKV8MKu+rzsQEm1k6f6lA4egHQ9kK1hFZgrErnaM4qV5ijK50yILztY44+mwWiFMXAmnEqZI8Q4ljSNygafzQqclnTaeKQK1/6+yNlJGYKNiE6VZ7C9l81af+MKaizQo+j5nfGWj9OcjehzujWroKfGOncCuV69wrU71npBcJrqSjWmN+TT2d6eqSN5bK3BZZ6Wx1lKnC7ZpX8/rq9K4fja+GLh/mNqbVm75yzdw2jL0FXGFPdQ9xbYE11Nv5/AnMP17x32alS3ghzlY73vX+AW+uDoULJVZDAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="htmlacademy.svg" href="#img1" x="0" y="0" />
+	</g>
+</svg>

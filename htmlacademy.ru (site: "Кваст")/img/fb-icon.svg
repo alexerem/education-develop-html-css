@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 16" width="8" height="16">
+	<defs>
+		<image width="8" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQBAMAAADZpCNOAAAAAXNSR0IB2cksfwAAACpQTFRF/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4H0r/zgAAAA50Uk5TABBwgM//v+9QQN+fYCD1F3qnAAAAMElEQVR4nGNgYFQ2ZmAQCQ1lYDAFEanhQG5qBAOQiGRgCAUCEBEFIqIhYriJw7YMABxQDdqdWlN+AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="fb-icon.svg" href="#img1" x="0" y="0" />
+	</g>
+</svg>

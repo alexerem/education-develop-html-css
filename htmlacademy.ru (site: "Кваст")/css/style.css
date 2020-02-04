@@ -577,3 +577,96 @@ form label {
 .form-form button:active {
   opacity: 0.3;
 }
+
+footer {
+  background-color: #000;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  align-items: center;
+}
+
+.logo-footer {
+  position: relative;
+  left: -70px;
+}
+
+.footer-social p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+  margin-left: 90px;
+}
+
+.footer-social {
+  display: flex;
+  vertical-align: middle;
+  width: 500px;
+  align-items: center;
+}
+
+.footer-social img {
+  position: relative;
+  top: 20px;
+  left: 25px;
+}
+
+.footer-social a {
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  min-width: 72px;
+  min-height: 68px;
+}
+
+.footer-scool {
+  display: flex;
+  align-items: center;
+}
+
+.footer-scool p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.footer-scool img {
+  padding: 16px 21px;
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container-1 {
+  height: auto;
+  padding-bottom: 45px;
+}
+
+.footer-social a:hover {
+  border: 1px solid #ffcb78;
+  opacity: 0.8;
+}
+
+.footer-social a:active {
+  border: 1px solid #ffcb78;
+  opacity: 0.3;
+}
+
+.footer-scool img:hover {
+  border: 1px solid #ffcb78;
+  opacity: 0.8;
+}
+
+.footer-scool img:active {
+  border: 1px solid #ffcb78;
+  opacity: 0.3;
+}

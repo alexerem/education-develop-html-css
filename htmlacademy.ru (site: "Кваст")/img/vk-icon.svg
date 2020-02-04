@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 11" width="20" height="11">
+	<defs>
+		<image width="20" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAMAAABI111xAAAAAXNSR0IB2cksfwAAADNQTFRF/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4D3qgngAAABF0Uk5TQK+/UAAw7/+PEICfcN9gzyDyPG8KAAAAaklEQVR4nE2OURKAIAhE0TYRyOz+p03AZvLD1edzB6JS64GzMXMHRFWN6Fq3AXhU4F7BSuLODUo4VjQhqKuS0M9uIFQLGM2GBfO5fduQgJj8WwUJzz/c3/cgbm0acNOZ9XwkxGMt6noM/wKJFwWfb8aAMAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="vk-icon.svg" href="#img1" x="0" y="0" />
+	</g>
+</svg>

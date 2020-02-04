@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<defs>
+		<image width="14" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAAXNSR0IB2cksfwAAAB5QTFRF/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4/8t4VR9CMgAAAAp0Uk5T7/+/AICPQJ+vYNeg08EAAABCSURBVHicY2AUBAEBBkEIANNCxqi0gBKYdgXLp4saB7YBaRMgXQykLQVCGCcDaeNCQXGQemNLl8lgGgQE4eZC7QEAbyQMWLdSRLEAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="insta-icon.svg" href="#img1" x="0" y="0" />
+	</g>
+</svg>
