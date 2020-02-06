@@ -97,8 +97,8 @@ h3 {
   display: flex;
   list-style: none;
   position: absolute;
-  right: 50%;
-  top: 280px;
+  right: 46%;
+  top: 250px;
 }
 
 .header-dots button {
@@ -669,4 +669,131 @@ footer {
 .footer-scool img:active {
   border: 1px solid #ffcb78;
   opacity: 0.3;
+}
+
+.menu-decor {
+  display: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 850px) {
+  .header__top {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-menu__list {
+    display: none;
+  }
+
+  .main-menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+
+  .header-text {
+    font-size: 60px;
+  }
+
+  .menu-decor {
+    display: block;
+  }
+
+  .main-menu__btn {
+    width: 50px;
+    height: 40px;
+    margin: 10px auto;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .main-menu__btn span {
+    width: 100%;
+    height: 4px;
+    background-color: #ffcb78;
+    position: absolute;
+    top: 45%;
+  }
+
+  .main-menu__btn span::before,
+  .main-menu__btn span::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 203, 120);
+    position: absolute;
+  }
+
+  .main-menu__btn span::before {
+    top: -10px;
+  }
+
+  .main-menu__btn span::after {
+    bottom: -10px;
+  }
+  
+  .main-menu__list li {
+    background-color: rgba(255, 203, 120, 1);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .main-menu__list li + li {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .main-menu__list li:last-child {
+    margin-bottom: 15px;
+  }
+
+  .header-slider-jq {
+    z-index: 1;
+  }
+
+  .main-menu__list li a:hover {
+    color: #834700;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .header-text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 490px) {
+  .header-text {
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 390px) {
+  .header-text {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 80px;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 650px) {
+  .main-menu__list {
+    display: flex !important;
+  }
 }
