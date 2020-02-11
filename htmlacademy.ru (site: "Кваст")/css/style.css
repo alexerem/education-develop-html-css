@@ -684,6 +684,44 @@ footer {
   }
 }
 
+@media (max-width: 810px) {
+  .news .slick-slide div:first-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .news-item-one {
+    border: none;
+    min-height: 700px;
+  }
+
+  .news-item-one img {
+    width: 60%;
+  }
+
+  .news-item {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 45px;
+  }
+
+  .news-item h2::after {
+    content: 'новинка';
+    font-size: 8px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 4px 5px 3px 5px;
+    border-radius: 2px;
+    background-color: #000;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+  }
+}
+
 @media (max-width: 650px) {
   .main-menu__list {
     display: none;
@@ -737,7 +775,7 @@ footer {
   .main-menu__btn span::after {
     bottom: -10px;
   }
-  
+
   .main-menu__list li {
     background-color: rgba(255, 203, 120, 1);
     width: 200px;
@@ -747,7 +785,7 @@ footer {
     text-align: center;
   }
 
-  .main-menu__list li + li {
+  .main-menu__list li+li {
     padding-left: 0;
     text-align: center;
   }
@@ -779,6 +817,18 @@ footer {
   }
 }
 
+@media (max-width: 400px) {
+  .news-h2 {
+    font-size: 30px;
+  }
+
+  .composition-alco-price td {
+    font-size: 13px;
+    width: 65px;
+    height: 35px;
+  }
+}
+
 @media (max-width: 390px) {
   .header-text {
     font-size: 40px;
@@ -787,7 +837,29 @@ footer {
   }
 }
 
+@media (max-width: 360px) {
+  .buttom-more {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 13px 17px;
+  }
 
+  .buttom-buy {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 15px 17px;
+  }
+
+  .news-item-one .buttom-price {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .composition {
+    right: 0;
+  }
+}
 
 
 
