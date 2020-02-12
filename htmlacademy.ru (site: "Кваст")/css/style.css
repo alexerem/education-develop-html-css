@@ -813,6 +813,25 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .form-feedback h2 {
+    margin: 0 0 20px;
+    padding-top: 40px;
+  }
+
+  .form-feedback p {
+    margin-bottom: 35px;
+  }
+
+  .form-form-group input,
+  #value-item,
+  #message,
+  #phone-2,
+  #phone {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -932,6 +951,21 @@ footer {
   .table-price sup {
     right: 45px;
     top: 15px;
+  }
+
+  .checkbox span{
+    position: relative;
+    top: 30px;
+    left: -55px;
+    font-size: 12px;
+  }
+
+  .phone-wrapper {
+    flex-direction: column;
+  }
+
+  .phone-2 {
+    margin-left: 0;
   }
 }
 
