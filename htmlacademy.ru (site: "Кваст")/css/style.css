@@ -804,6 +804,15 @@ footer {
     padding-top: 45px;
     padding-bottom: 75px;
   }
+
+  .price h2 {
+    margin: 45px 0 35px;
+  }
+
+  .price .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -919,6 +928,11 @@ footer {
   .otzivi h3 {
     display: none;;
   }
+
+  .table-price sup {
+    right: 45px;
+    top: 15px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -938,6 +952,10 @@ footer {
     font-size: 40px;
     line-height: 40px;
     margin-top: 80px;
+  }
+
+  .table-price sup {
+    display: none;
   }
 }
 
