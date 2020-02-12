@@ -681,7 +681,7 @@ footer {
   .container-1 ul {
     justify-content: space-evenly;
   }
-  
+
   .borders::before,
   .borders::after {
     display: none;
@@ -738,7 +738,7 @@ footer {
   .features {
     min-height: 800px;
   }
-  
+
   .container-1 ul {
     flex-direction: column;
     min-height: 800px;
@@ -756,6 +756,37 @@ footer {
     margin-bottom: 5px;
   }
 
+  .history h2 {
+    margin: 40px 0 30px;
+  }
+
+  .history dt {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .history .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .history dd img {
+    width: 200px;
+    height: 120px;
+    margin-left: 10px;
+  }
+
+  .history dd {
+    flex-direction: column;
+  }
+
+  .history dd img {
+    margin-bottom: 15px;
+  }
+
+  .history .dd {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -845,6 +876,7 @@ footer {
     font-size: 50px;
     line-height: 60px;
   }
+
 }
 
 @media (max-width: 490px) {
