@@ -8,7 +8,7 @@ $(function () {
   });
 
   $('.main-menu__btn').on('click', function () {
-    $('.main-menu__list').slideToggle();
+    $('.header-list').slideToggle();
   });
 
   $(window).resize(function () {
