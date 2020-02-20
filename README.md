@@ -20,3 +20,6 @@ Independent study. Active components: carousel slider, drop-down menu.
 Technologies used: html5, css3, javascript, jQuery 3.4.1
 
 This layout is taken from the site [htmlacademy.ru](https://htmlacademy.ru/).
+
+---
+
